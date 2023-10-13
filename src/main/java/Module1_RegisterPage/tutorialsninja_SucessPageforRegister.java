@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class tutorialsninja_SucessPageforRegister 
 {
-  @FindBy(xpath="(//div[@id='content'])//h1") WebElement registerSucess;
+  @FindBy(xpath="(//div[@id='content'])//h1") private WebElement registerSucess;
   
  public  tutorialsninja_SucessPageforRegister (WebDriver driver)
  {

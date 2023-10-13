@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Tutorialsninja_onSerachPage_LogoutPage 
 {
-	@FindBy(xpath="//span[text()='My Account']") WebElement myaccountBtn;
-	@FindBy(xpath="//a[text()='Logout']") WebElement Logoutbtn;
+	@FindBy(xpath="//span[text()='My Account']")private WebElement myaccountBtn;
+	@FindBy(xpath="//a[text()='Logout']") private WebElement Logoutbtn;
 	
 	
 	public Tutorialsninja_onSerachPage_LogoutPage (WebDriver driver)

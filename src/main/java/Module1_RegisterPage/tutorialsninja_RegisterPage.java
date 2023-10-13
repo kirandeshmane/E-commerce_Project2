@@ -8,15 +8,15 @@ import org.openqa.selenium.support.PageFactory;
 
 public class tutorialsninja_RegisterPage 
 {
-	@FindBy(xpath="//input[@name='firstname']") WebElement firstName;
-	@FindBy(xpath="//input[@name='lastname']") WebElement lastName;
-	@FindBy(xpath="//input[@name='email']") WebElement Email;
-	@FindBy(xpath="//input[@name='telephone']") WebElement Telephone;
-	@FindBy(xpath="//input[@name='password']") WebElement Password;
-	@FindBy(xpath="//input[@name='confirm']") WebElement confirmPassword;
-	@FindBy(xpath="//input[@name='agree']") WebElement privacyconfirm;
-	@FindBy(xpath="//input[@value='Continue']") WebElement continueBtn;
-	@FindBy(xpath="(//div[@class='alert alert-danger alert-dismissible'])//i") WebElement unsucessful;
+	@FindBy(xpath="//input[@name='firstname']") private WebElement firstName;
+	@FindBy(xpath="//input[@name='lastname']") private WebElement lastName;
+	@FindBy(xpath="//input[@name='email']") private WebElement Email;
+	@FindBy(xpath="//input[@name='telephone']") private WebElement Telephone;
+	@FindBy(xpath="//input[@name='password']") private WebElement Password;
+	@FindBy(xpath="//input[@name='confirm']") private WebElement confirmPassword;
+	@FindBy(xpath="//input[@name='agree']") private WebElement privacyconfirm;
+	@FindBy(xpath="//input[@value='Continue']") private WebElement continueBtn;
+	@FindBy(xpath="(//div[@class='alert alert-danger alert-dismissible'])//i") private WebElement unsucessful;
 	
 	public tutorialsninja_RegisterPage (WebDriver driver)
 	{

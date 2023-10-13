@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class Tutorialsninja_LoginPage
 {
 
-	@FindBy(xpath="//input[@name='email']") WebElement enterEmailID;
-	@FindBy(xpath="//input[@name='password']") WebElement enterpassword;
-	@FindBy(xpath="//input[@value='Login']") WebElement clickLoginBtn;
+	@FindBy(xpath="//input[@name='email']") private WebElement enterEmailID;
+	@FindBy(xpath="//input[@name='password']") private WebElement enterpassword;
+	@FindBy(xpath="//input[@value='Login']") private WebElement clickLoginBtn;
 	
 	public Tutorialsninja_LoginPage(WebDriver driver)
 	{

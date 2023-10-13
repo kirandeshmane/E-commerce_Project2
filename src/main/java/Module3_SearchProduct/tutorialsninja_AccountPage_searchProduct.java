@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class tutorialsninja_AccountPage_searchProduct 
 {
-   @FindBy(xpath="//input[@name='search']") WebElement serachbox;
-   @FindBy(xpath="//button[@class='btn btn-default btn-lg']")  WebElement clickonseachbtn;
+   @FindBy(xpath="//input[@name='search']") private WebElement serachbox;
+   @FindBy(xpath="//button[@class='btn btn-default btn-lg']") private WebElement clickonseachbtn;
    
    public tutorialsninja_AccountPage_searchProduct(WebDriver driver)
    {

@@ -3,15 +3,33 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="Module2_RegisterPage_Test.tutorialsninja_RegisterPage_Test">
+        <methods>
+          <include name="registeraccountdata"/>
+          <include name="closebrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyRegisteraccountCreated"/>
+          <include name="LogoutApp"/>
+        </methods>
+      </class> <!-- Module2_RegisterPage_Test.tutorialsninja_RegisterPage_Test -->
       <class name="Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test">
         <methods>
           <include name="closebrowser"/>
           <include name="OpenBrowser"/>
-          <include name="productnotavailable"/>
+          <include name="SearchtheProduct"/>
           <include name="LogoutApp"/>
           <include name="LoginApp"/>
         </methods>
       </class> <!-- Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test -->
+      <class name="Module1_LoginPage_Test.tutorialsninja_HomePage_Test">
+        <methods>
+          <include name="verifyaccount"/>
+          <include name="LogoutApp"/>
+          <include name="OpenBrowser"/>
+          <include name="LoginApp"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- Module1_LoginPage_Test.tutorialsninja_HomePage_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

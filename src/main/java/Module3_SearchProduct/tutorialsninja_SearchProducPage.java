@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class tutorialsninja_SearchProducPage 
 {
-  @FindBy(xpath="(//div[@class='caption'])//h4//a") WebElement seachproductmatch;
-  @FindBy(xpath="//p[text()='There is no product that matches the search criteria.']")  WebElement seachproductnotmatch;
+  @FindBy(xpath="(//div[@class='caption'])//h4//a") private WebElement seachproductmatch;
+  @FindBy(xpath="//p[text()='There is no product that matches the search criteria.']") private WebElement seachproductnotmatch;
 
  
   

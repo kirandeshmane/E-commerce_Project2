@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\KD\eclipse-workspace\MVN_DEMO_Project\testng.xml</span>
+                    <span>C:\Users\KD\eclipse-workspace\E-commerce_Project\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test" class="method navigator-link" hash-for-method="productnotavailable">productnotavailable</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -142,41 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="productnotavailable">
-                  </a> <!-- productnotavailable -->
-                  <span class="method-name">productnotavailable</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [There is no product that matches the search criteria.] but found [iMac]
-	at Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test.productnotavailable(tutorialsninja_SearchProduct_Test.java:80)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="SearchtheProduct">
-                  </a> <!-- SearchtheProduct -->
-                  <span class="method-name">SearchtheProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -188,6 +139,21 @@
                   <a name="verifyRegisteraccountCreated">
                   </a> <!-- verifyRegisteraccountCreated -->
                   <span class="method-name">verifyRegisteraccountCreated</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SearchtheProduct">
+                  </a> <!-- SearchtheProduct -->
+                  <span class="method-name">SearchtheProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,7 +176,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\KD\eclipse-workspace\MVN_DEMO_Project\testng.xml</span>
+            <span class="header-content">C:\Users\KD\eclipse-workspace\E-commerce_Project\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -261,28 +227,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'SearchtheProduct')
 data.setCell(0, 2, 'Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test')
-data.setCell(0, 3, 3867);
+data.setCell(0, 3, 3560);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'productnotavailable')
-data.setCell(1, 2, 'Moduel3_SearchProduct_Test.tutorialsninja_SearchProduct_Test')
-data.setCell(1, 3, 3601);
+data.setCell(1, 1, 'verifyRegisteraccountCreated')
+data.setCell(1, 2, 'Module2_RegisterPage_Test.tutorialsninja_RegisterPage_Test')
+data.setCell(1, 3, 120);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyRegisteraccountCreated')
-data.setCell(2, 2, 'Module2_RegisterPage_Test.tutorialsninja_RegisterPage_Test')
-data.setCell(2, 3, 110);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyaccount')
-data.setCell(3, 2, 'Module1_LoginPage_Test.tutorialsninja_HomePage_Test')
-data.setCell(3, 3, 100);
+data.setCell(2, 1, 'verifyaccount')
+data.setCell(2, 2, 'Module1_LoginPage_Test.tutorialsninja_HomePage_Test')
+data.setCell(2, 3, 96);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -315,79 +277,65 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">LoginApp</span>
-                <span class="method-start">15220 ms</span>
+                <span class="method-start">17843 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">SearchtheProduct</span>
-                <span class="method-start">16713 ms</span>
+                <span class="method-start">19923 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">LogoutApp([TestResult name=SearchtheProduct status=SUCCESS method=tutorialsninja_SearchProduct_Test.SearchtheP...)</span>
-                <span class="method-start">20588 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">LoginApp</span>
-                <span class="method-start">21095 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">productnotavailable</span>
-                <span class="method-start">22126 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">LogoutApp([TestResult name=productnotavailable status=FAILURE method=tutorialsninja_SearchProduct_Test.product...)</span>
-                <span class="method-start">25738 ms</span>
+                <span class="method-start">23491 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">26434 ms</span>
+                <span class="method-start">23997 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Module1_LoginPage_Test.tutorialsninja_HomePage_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">OpenBrowser</span>
-                <span class="method-start">30041 ms</span>
+                <span class="method-start">27729 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">LoginApp</span>
-                <span class="method-start">37495 ms</span>
+                <span class="method-start">35212 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyaccount</span>
-                <span class="method-start">38981 ms</span>
+                <span class="method-start">37101 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">LogoutApp</span>
-                <span class="method-start">39087 ms</span>
+                <span class="method-start">37201 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">39509 ms</span>
+                <span class="method-start">37599 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Module2_RegisterPage_Test.tutorialsninja_RegisterPage_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">openBrowser</span>
-                <span class="method-start">43257 ms</span>
+                <span class="method-start">40928 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">registeraccountdata</span>
-                <span class="method-start">49903 ms</span>
+                <span class="method-start">47864 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyRegisteraccountCreated</span>
-                <span class="method-start">54646 ms</span>
+                <span class="method-start">55172 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">LogoutApp</span>
-                <span class="method-start">54760 ms</span>
+                <span class="method-start">55297 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closebrowser</span>
-                <span class="method-start">54761 ms</span>
+                <span class="method-start">55303 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

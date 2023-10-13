@@ -8,8 +8,8 @@ import org.openqa.selenium.support.PageFactory;
 public class tutorialsninja_HomePage 
 {
  
-	@FindBy(xpath="//span[text()='My Account']") WebElement myaccountBtn;
-	@FindBy(xpath="//a[text()='Login']") WebElement loginbtn;
+	@FindBy(xpath="//span[text()='My Account']") private WebElement myaccountBtn;
+	@FindBy(xpath="//a[text()='Login']")private WebElement loginbtn;
 	
 	
 	public tutorialsninja_HomePage (WebDriver driver)

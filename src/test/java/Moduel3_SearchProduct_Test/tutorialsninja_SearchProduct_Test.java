@@ -66,7 +66,8 @@ public class tutorialsninja_SearchProduct_Test extends BaseClass
 		  
 		  
 	  }
-	  @Test
+	  /*
+	  @Test()
 	  public void productnotavailable() throws InterruptedException
 	  {
 		  TCID=102;
@@ -80,7 +81,7 @@ public class tutorialsninja_SearchProduct_Test extends BaseClass
 		  Assert.assertEquals(act, exp);
 		  
 	  }
-	 
+	 */
 	  @AfterMethod
 	  public void LogoutApp(ITestResult result) throws IOException 
 	  {

@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class tutorialsninja_AccountPage 
 {
-   @FindBy(xpath="//a[text()='Edit your account information']") WebElement accountPage;
-   @FindBy(xpath="//div[@id='content']//h2[1]")  WebElement MyaccountPage;
+   @FindBy(xpath="//a[text()='Edit your account information']") private WebElement accountPage;
+   @FindBy(xpath="//div[@id='content']//h2[1]") private  WebElement MyaccountPage;
    
    public tutorialsninja_AccountPage(WebDriver driver)
    {
